@@ -1,0 +1,60 @@
+.detail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: 20px 0px;
+
+    .cardList {
+        width: 300px;
+        min-height: 350px;
+        border: 3px solid green;
+        padding: 20px;
+        position: relative;
+        list-style: none;
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .title {
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .price {
+            font-size: 14px;
+        }
+
+        .desc {
+            font-size: 14px;
+        }
+
+        .category {
+            background-color: green;
+            color: white;
+            width: 150px;
+            font-weight: 600;
+            font-size: 17;
+            margin: auto;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .fa-heart {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            padding: 8px;
+            border: 1px solid black;
+            border-radius: 50%;
+            transition: 300ms;
+            cursor: pointer;
+
+            &:hover {
+                color: green;
+            }
+        }
+    }
+}

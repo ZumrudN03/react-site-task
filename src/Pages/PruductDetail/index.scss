@@ -1,0 +1,37 @@
+.productDetail{
+    display: flex;
+    justify-content: center;
+        .cardList{
+            border: 3px solid green;
+            list-style: none;
+            width: 300px;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+            .cardId{
+                color: #004225;
+                font-size: 20px;
+                font-weight: 600;
+                cursor: pointer;
+            }
+            .cardName{
+                color: #618264;
+                font-size: 18px;
+            }
+            .cardUserName{
+                color: #618264;
+                font-size: 18px;
+            }
+            .cardEmail{
+                color: #618264;
+                font-size: 18px;
+            }
+            .cardPhone{
+                color: #618264;
+                font-size: 18px;
+            }
+        }
+    
+}
